@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/JAVA/Throwable/</loc>
+    <lastmod>2018-07-29T10:47:46.587Z</lastmod>
+    <data>
+        <display>
+        <title>聊聊 JAVA 异常</title>
+        <pubTime>2018-07-29T10:35:21.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="http://www.huizhe.zxy/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://www.huizhe.zxy/JAVA/reflection/</loc>
+    <lastmod>2018-07-27T09:12:23.970Z</lastmod>
+    <data>
+        <display>
+        <title>浅谈反射</title>
+        <pubTime>2018-07-27T08:29:41.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="http://www.huizhe.zxy/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/php/Tesseract/</loc>
+    <lastmod>2018-07-27T09:01:35.625Z</lastmod>
+    <data>
+        <display>
+        <title>机器学习之识别验证码</title>
+        <pubTime>2018-03-19T14:55:57.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="php" url="http://www.huizhe.zxy/categories/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/php/Software/</loc>
+    <lastmod>2018-07-27T08:40:59.486Z</lastmod>
+    <data>
+        <display>
+        <title>软考爬虫</title>
+        <pubTime>2018-03-12T10:12:58.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>crawler</tag>
+         
+         
+           
+             
+              <breadCrumb title="php" url="http://www.huizhe.zxy/categories/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/python/python-crawler/</loc>
+    <lastmod>2018-07-27T08:28:17.278Z</lastmod>
+    <data>
+        <display>
+        <title>python爬虫学习</title>
+        <pubTime>2017-10-16T06:23:40.000Z</pubTime>
+        
+        <tag>crawler</tag>
+         
+        <tag>python</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="http://www.huizhe.zxy/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/MySQL/Mysql/</loc>
+    <lastmod>2018-07-27T08:24:19.788Z</lastmod>
+    <data>
+        <display>
+        <title>Mysql和MariaDB 笔记</title>
+        <pubTime>2018-02-27T08:29:41.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="MySQL" url="http://www.huizhe.zxy/categories/MySQL/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.huizhe.zxy/start/hello-world/</loc>
+    <lastmod>2018-07-27T08:20:09.452Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-10-12T08:29:41.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="start" url="http://www.huizhe.zxy/categories/start/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>

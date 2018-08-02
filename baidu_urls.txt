@@ -1,0 +1,7 @@
+http://www.huizhe.zxy/JAVA/Throwable/
+http://www.huizhe.zxy/JAVA/reflection/
+http://www.huizhe.zxy/php/Tesseract/
+http://www.huizhe.zxy/php/Software/
+http://www.huizhe.zxy/MySQL/Mysql/
+http://www.huizhe.zxy/python/python-crawler/
+http://www.huizhe.zxy/start/hello-world/
