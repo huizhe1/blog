@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.huizhe.zxy/Throwable/</loc>
+    <loc>https://www.huizhe.zxy/Software/</loc>
+    
+    <lastmod>2018-08-03T03:30:43.260Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.huizhe.zxy/Tesseract/</loc>
+    
+    <lastmod>2018-08-03T03:30:24.905Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.huizhe.zxy/Throwable/</loc>
     
     <lastmod>2018-07-29T10:47:46.587Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/about/index.html</loc>
+    <loc>https://www.huizhe.zxy/about/index.html</loc>
     
     <lastmod>2018-07-27T09:29:10.723Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/reflection/</loc>
+    <loc>https://www.huizhe.zxy/reflection/</loc>
     
     <lastmod>2018-07-27T09:12:23.970Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/Tesseract/</loc>
-    
-    <lastmod>2018-07-27T09:01:35.625Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.huizhe.zxy/Software/</loc>
-    
-    <lastmod>2018-07-27T08:40:59.486Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.huizhe.zxy/python-crawler/</loc>
+    <loc>https://www.huizhe.zxy/python-crawler/</loc>
     
     <lastmod>2018-07-27T08:28:17.278Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/Mysql/</loc>
+    <loc>https://www.huizhe.zxy/Mysql/</loc>
     
     <lastmod>2018-07-27T08:24:19.788Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/hello-world/</loc>
+    <loc>https://www.huizhe.zxy/hello-world/</loc>
     
     <lastmod>2018-07-27T08:20:09.452Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/404.html</loc>
+    <loc>https://www.huizhe.zxy/404.html</loc>
     
     <lastmod>2017-10-12T09:42:54.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/tags/index.html</loc>
+    <loc>https://www.huizhe.zxy/tags/index.html</loc>
     
     <lastmod>2017-10-09T14:48:02.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.huizhe.zxy/categories/index.html</loc>
+    <loc>https://www.huizhe.zxy/categories/index.html</loc>
     
     <lastmod>2017-10-09T14:47:10.000Z</lastmod>
     

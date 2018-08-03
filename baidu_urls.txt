@@ -1,7 +1,7 @@
-http://www.huizhe.zxy/Throwable/
-http://www.huizhe.zxy/reflection/
-http://www.huizhe.zxy/Tesseract/
-http://www.huizhe.zxy/Software/
-http://www.huizhe.zxy/Mysql/
-http://www.huizhe.zxy/python-crawler/
-http://www.huizhe.zxy/hello-world/
+https://www.huizhe.zxy/Throwable/
+https://www.huizhe.zxy/reflection/
+https://www.huizhe.zxy/Tesseract/
+https://www.huizhe.zxy/Software/
+https://www.huizhe.zxy/Mysql/
+https://www.huizhe.zxy/python-crawler/
+https://www.huizhe.zxy/hello-world/
