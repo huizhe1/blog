@@ -20,9 +20,9 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Thread t = <span class="keyword">new</span> Thread(r);</div></pre></td></tr></table></figure>
 </li>
 <li><p>启动线程：</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">t.start</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">t.start</div></pre></td></tr></table></figure>
 <p>也可以通过构建一个Thread类的子类定义一个线程</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyThread</span> <span class="keyword">extends</span> <span class="title">Thread</span></span></div><div class="line"><span class="class"></span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span></span></div><div class="line"><span class="function">    </span>&#123;</div><div class="line">        task code</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>注意：<br>不要调用 <strong>Thread</strong> 类或 <strong>Runnable</strong> 对象的run方法。直接调用run方法，只会执行同一个线程中的任务，而不会启动新线程。应该调用 <strong>Thread.start</strong> 方法。。该方法将创建一个执行run方法的新线程。</p>
