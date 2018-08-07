@@ -1,10 +1,3 @@
-https://www.huizhe.zxy/Concurrency3/
-https://www.huizhe.zxy/Concurrency2/
-https://www.huizhe.zxy/Concurrency/
-https://www.huizhe.zxy/Throwable/
-https://www.huizhe.zxy/reflection/
-https://www.huizhe.zxy/Tesseract/
-https://www.huizhe.zxy/Software/
-https://www.huizhe.zxy/Mysql/
-https://www.huizhe.zxy/python-crawler/
-https://www.huizhe.zxy/hello-world/
+https://www.huizhe.xyz/Concurrency3/
+https://www.huizhe.xyz/Concurrency2/
+https://www.huizhe.xyz/Concurrency/

@@ -62,7 +62,7 @@
 <li>protected initialize()<br> 应覆盖这个方法来提供一个初始值。默认情况下，这个方法返回null</li>
 <li>void set(T t)<br> 为这个线程设置一个新值</li>
 <li>void remove()<br> 删除对应这个线程的值 </li>
-<li>static &lt;S&gt; ThreadLocal&lt;S&gt; withInitial(Supplier&lt;? extends S&gt; supplier) 8<br> 创建一个线程局部变量，其初始值通过调用给定的supplier 生成</li>
+<li>static &lt;S&gt; ThreadLocal&lt;S &gt; withInitial(Supplier&lt;? extends S&gt; supplier) 8<br> 创建一个线程局部变量，其初始值通过调用给定的supplier 生成</li>
 </ol>
 <h3 id="Random"><a href="#Random" class="headerlink" title="Random"></a>Random</h3><p>如果多个线程需要等待一个共享的随机数生成器，这会很低效。<br>可使用ThreadLocal 辅助类为各个线程提供一个单独的生成器。</p>
 <p>JAVA SE 7 提供了一个便利类<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//bound 为数字</span></div><div class="line"><span class="keyword">int</span> random = ThreadLocalRandom.current().nextInt(<span class="keyword">int</span> bound);</div></pre></td></tr></table></figure></p>
