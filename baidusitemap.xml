@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://www.huizhe.xyz/SendEmail/</loc>
+    <lastmod>2018-08-10T12:27:06.805Z</lastmod>
+    <data>
+        <display>
+        <title>利用163邮箱发送简单邮件</title>
+        <pubTime>2018-08-10T12:16:46.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://www.huizhe.xyz/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.huizhe.xyz/Mysql/</loc>
+    <lastmod>2018-08-10T12:18:36.542Z</lastmod>
+    <data>
+        <display>
+        <title>Mysql和MariaDB 笔记</title>
+        <pubTime>2018-02-27T08:29:41.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="MySQL" url="https://www.huizhe.xyz/categories/MySQL/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.huizhe.xyz/Concurrency3/</loc>
     <lastmod>2018-08-05T10:22:39.421Z</lastmod>
     <data>
@@ -162,26 +202,6 @@
            
              
               <breadCrumb title="python" url="https://www.huizhe.xyz/categories/python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.huizhe.xyz/Mysql/</loc>
-    <lastmod>2018-07-27T08:24:19.788Z</lastmod>
-    <data>
-        <display>
-        <title>Mysql和MariaDB 笔记</title>
-        <pubTime>2018-02-27T08:29:41.000Z</pubTime>
-        
-        <tag>MySQL</tag>
-         
-         
-           
-             
-              <breadCrumb title="MySQL" url="https://www.huizhe.xyz/categories/MySQL/"/>
           
         </display>
     </data>
