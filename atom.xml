@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.huizhe.xyz/"/>
-  <updated>2018-08-10T12:27:06.805Z</updated>
+  <updated>2018-08-19T07:02:30.972Z</updated>
   <id>https://www.huizhe.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA EE 软件开发体系架构</title>
+    <link href="https://www.huizhe.xyz/javaee/"/>
+    <id>https://www.huizhe.xyz/javaee/</id>
+    <published>2018-08-19T06:48:03.000Z</published>
+    <updated>2018-08-19T07:02:30.972Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="两层架构"><a href="#两层架构" class="headerlink" title="两层架构"></a>两层架构</h3><ul><li>客户端（前台）</li><li>信息系统（后台）</li></ul><p>传统的客户端服务器系统仅只简单地基于两层体系来构建,没有任何中间件<br>业务逻辑层与表示出或数据层混在一起,成本较高</p><h3 id="三层架构"><a href="#三层架构" class="headerlink" title="三层架构"></a>三层架构</h3><p>三层架构自上而下将系统分为表示层、逻辑层、持久层。区分层次的目的是为了“高内聚低耦合”。</p><ol><li>表示层 Web<br> 由处理用户交互的客户端组建及其容器所组成</li><li>业务逻辑层 Service<br> 由解决业务问题的组建组成,处于数据访问层和表示层中间，起到了数据交换中承上启下的作用。业务逻辑层的设计对于一个支持可扩展的架构尤为关键，因为它扮演了两个不同的角色。<ul><li>对于数据访问层而言，它是调用者</li><li>对于表示层而言，它是被调用者</li></ul></li><li>数据层    DAO<br> 有时候也称为持久层，由一个或多个数据库组成，并可包含存储过程。其功能主要是负责对数据库的访问。</li></ol><h4 id="三层架构特点"><a href="#三层架构特点" class="headerlink" title="三层架构特点"></a>三层架构特点</h4><p>在处理客户端的请求时，使客户端不用进行复杂的数据库处理；透明地为客户端执行许多工作<br>并且能够帮助开发人员创建适用于企业的大型分布式应用程序<br><img src="https://static.huizhe.xyz/article-images/java_3.png" alt="三层架构"></p><ol><li>在表示层方面一般不会直接访问 JSP 文件，会使用Servlet 进行页面转发。因此在 Servlet 进行处理数据。</li><li>三层架构把不同层的业务职责分离得更加彻底，逻辑层不包含一丁点的视图层代码。若包含了其他层的代码就不能做到完全解耦，依旧会存在一定程度的耦合性</li><li>三层架构更好的实现了模块化编程，使用三层架构设计的系统可以更容易的扩展及更换。</li></ol><h4 id="三层架构优缺点"><a href="#三层架构优缺点" class="headerlink" title="三层架构优缺点"></a>三层架构优缺点</h4><p>优点：</p><ol><li>开发人员可以只关注整个结构中的某一层</li><li>层次更换的时候可以很容易实现</li><li>降低层与层之间的依赖</li><li>有利于各层逻辑的复用</li><li>结构明确，极大降低维护成本和维护时间</li></ol><p>缺点：</p><ol><li>降低了系统的性能。访问数据需经过中间层完成</li><li>有时会导致级联修改。</li></ol><h3 id="MVC-模式"><a href="#MVC-模式" class="headerlink" title="MVC 模式"></a>MVC 模式</h3><p>在MVC模式中，应用程序被划分为 模型层(Model)、视图层(View)、控制层(Controller) 三部分。<br>MVC模型就是把一个应用程序的开发按照业务逻辑、数据、视图进行分离分层并组织代码<br>MVC 要求把应用的模型按一定的层次规则抽取出来，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。</p><ul><li>模型层负责封装应用的状态，并实现功能</li><li>视图层负责将内容呈现给用户</li><li>控制层富足控制视图层发送的请求以及程序的流程</li></ul><p>Servlet + JSP + JavaBean （MVC）这种模式比较适合开发复杂的web应用<br>在该模式下</p><ul><li>Servlet 负责处理用户请求</li><li>JSP 负责数据显示</li><li>JavaBean 负责封装数据<br><img src="https://static.huizhe.xyz/article-images/mvc.png" alt="MVC"></li></ul><h3 id="三层架构与MVC模式的区别"><a href="#三层架构与MVC模式的区别" class="headerlink" title="三层架构与MVC模式的区别"></a>三层架构与MVC模式的区别</h3><ol><li>两者相同的地方是 都有一个表现层</li><li>三层架构是没有 <strong>Controller</strong> 控制器概念的</li><li>MVC没有把业务逻辑访问看成两个层</li><li>三层架构中典型的 Model层 是以<strong>实体类</strong>构成的</li><li>而MVC，则是由业务逻辑与访问数据组成的</li></ol><h3 id="基于Java-EE-架构下的MVC"><a href="#基于Java-EE-架构下的MVC" class="headerlink" title="基于Java EE 架构下的MVC"></a>基于Java EE 架构下的MVC</h3><p>在MVC架构模式中，模型层 定义了 数据模型 和业务逻辑。<br>为了将数据访问与业务逻辑分离，降低代码之间的耦合，提高业务精度<br>模型层又具体划分为了 DAO 层 和 业务层。</p><ul><li>DAO 层 (Data Access Object)<br>  其主要职能是将访问数据库的代码封装起来，将这些代码不会再其他层出现或者暴露出来给其他层</li><li>业务层<br>  是整个系统最核心也是最具有价值的一层，该层封装应用程序的业务逻辑，处理数据，关注客户需求，在业务处理过程中会访问原始数据或产生新数据</li></ul><p>DAO 层提供的DAO类能很好地帮助业务层完成数据处理<br>业务层本身侧重于对客户需求的理解和业务规则的适应<br>总体来说，DAO层 不处理业务逻辑，只为业务层提供辅助，完成获取原始数据或持久层数据等操作<br><img src="https://static.huizhe.xyz/article-images/java%20ee_mvc.png" alt="java_ee_mvc"></p><ol><li>JSP<br> jsp被用来产生Web的动态内容。这层把应用数据以网页的形式呈现给浏览器，然后数据按照在JSP中开发的预定的方式表示出来，这层也可以称之为布局层</li><li>Servlet <ul><li><strong>JSP 建立在 Servlet 之上</strong>，Servlet 是J2EE的<strong>重要组成部分</strong></li><li>Servlet 负责处理用户请求，Java Web 项目的所有配置都写在了 web.xml 配置文件上，当项目运行的时候，web.xml 会将http请求映射给对应的Servlet类</li></ul></li><li>JavaBean <ul><li>由一些具有私有属性的Java类组成，对外提供 get 和 set 方法</li><li>JavaBean 负责数据，负责处理视图层和业务逻辑之间的通信</li></ul></li><li>Service <ul><li>业务处理类，对数据进行一些预处理</li></ul></li><li>DAO<ul><li>数据访问层，JDBC 调用存储过程</li><li>从 DataBase 那里获取到数据，再封装到Model实体类中去</li></ul></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://segmentfault.com/a/1190000007090110" target="_blank" rel="external">从懵逼到再入门——JavaEE完整体系架构</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;两层架构&quot;&gt;&lt;a href=&quot;#两层架构&quot; class=&quot;headerlink&quot; title=&quot;两层架构&quot;&gt;&lt;/a&gt;两层架构&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;客户端（前台）&lt;/li&gt;
+&lt;li&gt;信息系统（后台）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;传统的客户端服务器系统仅只简单地
+      
+    
+    </summary>
+    
+      <category term="JAVA" scheme="https://www.huizhe.xyz/categories/JAVA/"/>
+    
+    
+      <category term="JAVA" scheme="https://www.huizhe.xyz/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>利用163邮箱发送简单邮件</title>
