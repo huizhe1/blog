@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://www.huizhe.xyz/hibernate/</loc>
+    <lastmod>2018-09-03T02:28:15.948Z</lastmod>
+    <data>
+        <display>
+        <title>Hibernate之Criteria</title>
+        <pubTime>2018-09-03T02:13:47.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://www.huizhe.xyz/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.huizhe.xyz/Throwable/</loc>
+    <lastmod>2018-09-03T02:26:46.054Z</lastmod>
+    <data>
+        <display>
+        <title>聊聊 JAVA 异常</title>
+        <pubTime>2018-07-29T10:35:21.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://www.huizhe.xyz/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.huizhe.xyz/javaProject/</loc>
     <lastmod>2018-08-19T09:25:31.604Z</lastmod>
     <data>
@@ -174,26 +214,6 @@
         <display>
         <title>并发学习笔记（一）</title>
         <pubTime>2018-08-04T07:46:54.000Z</pubTime>
-        
-        <tag>JAVA</tag>
-         
-         
-           
-             
-              <breadCrumb title="JAVA" url="https://www.huizhe.xyz/categories/JAVA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.huizhe.xyz/Throwable/</loc>
-    <lastmod>2018-07-29T10:47:46.587Z</lastmod>
-    <data>
-        <display>
-        <title>聊聊 JAVA 异常</title>
-        <pubTime>2018-07-29T10:35:21.000Z</pubTime>
         
         <tag>JAVA</tag>
          

@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.huizhe.xyz/hibernate/</loc>
+    
+    <lastmod>2018-09-03T02:28:15.948Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.huizhe.xyz/Throwable/</loc>
+    
+    <lastmod>2018-09-03T02:26:46.054Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.huizhe.xyz/javaProject/</loc>
     
     <lastmod>2018-08-19T09:25:31.604Z</lastmod>
@@ -61,13 +75,6 @@
     <loc>https://www.huizhe.xyz/Concurrency/</loc>
     
     <lastmod>2018-08-05T07:35:49.138Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.huizhe.xyz/Throwable/</loc>
-    
-    <lastmod>2018-07-29T10:47:46.587Z</lastmod>
     
   </url>
   
