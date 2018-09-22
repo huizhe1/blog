@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://www.huizhe.xyz/todolist/</loc>
+    <lastmod>2018-09-22T08:29:59.228Z</lastmod>
+    <data>
+        <display>
+        <title>写了个 TodoList</title>
+        <pubTime>2018-09-22T08:21:46.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="JAVA" url="https://www.huizhe.xyz/categories/JAVA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.huizhe.xyz/algorithm-str/</loc>
     <lastmod>2018-09-08T05:01:51.611Z</lastmod>
     <data>

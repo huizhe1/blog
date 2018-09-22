@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.huizhe.xyz/todolist/</loc>
+    
+    <lastmod>2018-09-22T08:29:59.228Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.huizhe.xyz/algorithm-str/</loc>
     
     <lastmod>2018-09-08T05:01:51.611Z</lastmod>
